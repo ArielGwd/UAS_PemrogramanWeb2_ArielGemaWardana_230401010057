@@ -28,7 +28,7 @@
         <div class="my-3">
             <div class="row">
                 <div class="col-md-2">
-                    <div class="card card-custom h-100">
+                    <div class="card card-custom">
                         <div class="card-body">
                             <div class="mb-3">
                                 <a href="../" class="text-decoration-none btn-indigo w-100 rounded-3">
@@ -80,11 +80,12 @@
                                                     <label for="tujuan" class="form-label">Tujuan <span class="text-danger">*</span></label>
                                                     <textarea name="tujuan" id="tujuan" rows="5" class="form-control" placeholder="Masukkan Tujuan..." required></textarea>
                                                 </div>
+
+                                                <div class="text-end">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                    <button type="submit" class="btn btn-success">Simpan</button>
+                                                </div>
                                             </form>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                                            <button type="button" class="btn btn-success">Simpan</button>
                                         </div>
                                     </div>
                                 </div>
@@ -92,16 +93,27 @@
                         </div>
                     </div>
 
-                    <?php
-                    include_once 'table.php';
-                    ?>
+                    <div class="card card-custom mt-3">
+                        <div class="card-body">
+                            <?php if (isset($_GET['error'])) { ?>
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <?= htmlspecialchars($_GET['error']) ?>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            <?php } ?>
+                            <?php
+                            include_once 'table.php';
+                            ?>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="mx-auto" style="max-width: 1200px;">
-        <div class="text-center py-3">
+        <div class="py-3 text-end">
             <p class="text-muted mb-0">&copy;<?= date("Y") ?> GuestBook. All rights reserved.</p>
             <p class="text-muted">Created by <a href="#">Ariel Gema Wardana</a></p>
         </div>
