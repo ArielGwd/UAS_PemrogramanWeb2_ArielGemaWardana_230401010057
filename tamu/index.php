@@ -14,7 +14,7 @@
 
 <body>
     <header class="mx-auto" style="max-width: 1200px;">
-        <nav class="navbar navbar-expand-lg px-4 rounded-bottom" style="background-color: var(--bs-indigo);">
+        <nav class="navbar navbar-expand-lg px-4 rounded-bottom" style="background-color: var(--bs-purple);">
             <a class="navbar-brand" href="index.php">
                 <h2 class="d-flex align-items-center gap-2 fs-3 text-light">
                     <i class="bi bi-person-vcard"></i>
@@ -27,7 +27,7 @@
     <main class="mx-auto" style="max-width: 1200px;">
         <div class="my-3">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="card card-custom">
                         <div class="card-body">
                             <div class="mb-3">
@@ -46,10 +46,10 @@
                     </div>
                 </div>
 
-                <div class="col-md-10">
+                <div class="col-md-9">
                     <div class="card card-custom">
                         <div class="card-body d-inline-flex justify-content-between align-items-center">
-                            <h3 class="fs-4 fw-bold" style="color:var(--bs-indigo)">Tamu</h3>
+                            <h3 class="fs-4 fw-bold" style="color:var(--bs-purple)">Tamu</h3>
                             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#modalAdd">
                                 <i class="bi bi-plus-circle"></i>
                                 Tambah Data
