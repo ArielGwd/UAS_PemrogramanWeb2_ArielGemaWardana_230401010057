@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/app.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
+    <link rel="icon" href="../assets/img/icon.png" type="image/png">
     <title>GuestBook - Aplikasi Buku Tamu</title>
 </head>
 
