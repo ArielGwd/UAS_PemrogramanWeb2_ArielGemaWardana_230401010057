@@ -55,7 +55,6 @@
                                 Tambah Data
                             </button>
 
-                            <!-- Pop up tambah -->
                             <div class="modal modal-lg fade" id="modalAdd" tabindex="-1" aria-labelledby="modalAddLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -119,6 +118,7 @@
         </div>
     </footer>
 
+    <script src="../assets/js/app.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 

@@ -37,6 +37,18 @@ body {
   border-color: #6610f2;
 }
 
+.btn-indigo-update {
+  color: #fff !important;
+  background-color: #6610f2 !important;
+  border-color: #6610f2 !important;
+}
+
+.btn-indigo-update:hover {
+  color: #fff !important;
+  background-color: #4910a5 !important;
+  border-color: #4910a5 !important;
+}
+
 .card-custom {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
