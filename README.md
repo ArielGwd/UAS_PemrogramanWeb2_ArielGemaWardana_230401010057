@@ -10,7 +10,10 @@ git clone https://github.com/ArielGwd/UAS_PemrogramanWeb2_ArielGemaWardana_23040
 ## Import 
 import database [db_bukutamu](db_bukutamu.sql) ke phpMyAdmin atau lainnya.
 
-ketik `http://localhost/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057/` pada browser untuk membukanya
+salin url dibawah ini untuk membuka projeknya
+```bash
+http://localhost/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057/
+``` 
 
 ## Preview
 ### - Dashboard
