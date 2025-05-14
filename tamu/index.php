@@ -81,8 +81,8 @@
                                                 </div>
 
                                                 <div class="text-end">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                                                    <button type="submit" class="btn btn-success" id="btn-submit">
+                                                    <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                                    <button type="submit" class="btn btn-sm btn-success" id="btn-submit">
                                                         <div class="spinner-border text-light d-none" id="spinner-submit" style="width:16px;height:16px;" role="status">
                                                             <span class="visually-hidden">Loading...</span>
                                                         </div>
@@ -119,7 +119,7 @@
     <footer class="mx-auto" style="max-width: 1200px;">
         <div class="py-3 text-end">
             <p class="text-muted mb-0">&copy;<?= date("Y") ?> GuestBook. All rights reserved.</p>
-            <p class="text-muted">Created by <a href="#">Ariel Gema Wardana</a></p>
+            <p class="text-muted">Created by <a target="_blank" href="https://github.com/ArielGwd/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057">Ariel Gema Wardana</a></p>
         </div>
     </footer>
 

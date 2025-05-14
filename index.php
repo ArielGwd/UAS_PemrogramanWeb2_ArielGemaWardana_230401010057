@@ -59,9 +59,9 @@
     </main>
 
     <footer class="mx-auto" style="max-width: 1200px;">
-        <div class="text-center py-3">
+        <div class="py-3 text-end">
             <p class="text-muted mb-0">&copy;<?= date("Y") ?> GuestBook. All rights reserved.</p>
-            <p class="text-muted">Created by <a href="#">Ariel Gema Wardana</a></p>
+            <p class="text-muted">Created by <a target="_blank" href="https://github.com/ArielGwd/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057">Ariel Gema Wardana</a></p>
         </div>
     </footer>
 
