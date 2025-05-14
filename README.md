@@ -5,7 +5,6 @@
 4. Kemudian, jalankan perintah dibawah ini :
 ```bash
 git clone https://github.com/ArielGwd/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057.git
-cd UAS_PemrogramanWeb2_ArielGemaWardana_230401010057
 ```  
 
 ## Import 
