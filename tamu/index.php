@@ -49,7 +49,11 @@
                 <div class="col-md-9">
                     <div class="card card-custom">
                         <div class="card-body d-inline-flex justify-content-between align-items-center">
-                            <h3 class="fs-4 fw-bold" style="color:var(--bs-purple)">Tamu</h3>
+                            <div>
+                                <h3 class="fs-4 fw-bold" style="color:var(--bs-purple)">Tamu</h3>
+                                <p class="text-muted mb-0">Berikut adalah daftar tamu.</p>
+                            </div>
+
                             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#modalAdd">
                                 <i class="bi bi-plus-circle"></i>
                                 Tambah Data
