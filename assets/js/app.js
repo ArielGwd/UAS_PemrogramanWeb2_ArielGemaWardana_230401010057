@@ -21,3 +21,17 @@ forms.forEach((form, index) => {
     textSubmits[index].textContent = "Loading...";
   });
 });
+
+// form searching
+const searchForm = document.getElementById("form-search");
+const searchButton = document.getElementById("btn-search");
+const searchSpinner = document.getElementById("spinner-search");
+const searchText = document.getElementById("text-search");
+const iconSearch = document.getElementById("icon-search");
+
+searchForm.addEventListener("submit", (e) => {
+  searchButton.classList.add("disabled");
+  searchSpinner.classList.remove("d-none");
+  iconSearch.classList.add("d-none");
+  searchText.textContent = "Loading...";
+});
