@@ -63,7 +63,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <form action="tambah.php" method="post">
+                                            <form action="tambah.php" method="post" id="form-submit">
                                                 <div class="row">
                                                     <div class="col-md-6 mb-3">
                                                         <label for="nama" class="form-label">Nama <span class="text-danger">*</span></label>
@@ -82,7 +82,12 @@
 
                                                 <div class="text-end">
                                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-                                                    <button type="submit" class="btn btn-success">Simpan</button>
+                                                    <button type="submit" class="btn btn-success" id="btn-submit">
+                                                        <div class="spinner-border text-light d-none" id="spinner-submit" style="width:16px;height:16px;" role="status">
+                                                            <span class="visually-hidden">Loading...</span>
+                                                        </div>
+                                                        <span id="text-submit">Simpan</span>
+                                                    </button>
                                                 </div>
                                             </form>
                                         </div>
