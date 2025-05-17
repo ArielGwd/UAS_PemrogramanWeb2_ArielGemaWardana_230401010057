@@ -4,7 +4,7 @@
 3. Lalu klik kanan pada area kosong lalu pilih `Open in Terminal` atau pilih `git bash`
 4. Kemudian, jalankan perintah dibawah ini :
 ```bash
-git clone https://github.com/ArielGwd/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057.git
+git clone https://github.com/ArielGwd/UTS_PemrogramanWeb2_ArielGemaWardana_230401010057.git
 ```  
 
 ## Import 
@@ -12,7 +12,7 @@ import database [db_bukutamu](db_bukutamu.sql) ke phpMyAdmin atau lainnya.
 
 setelah melakukan clone repository dan import database, selanjutnya ialah salin url dibawah ini untuk membuka projeknya
 ```bash
-http://localhost/UAS_PemrogramanWeb2_ArielGemaWardana_230401010057/
+http://localhost/UTS_PemrogramanWeb2_ArielGemaWardana_230401010057/
 ``` 
 
 ## Preview
